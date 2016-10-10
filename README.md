@@ -24,3 +24,22 @@ Then open up [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/),
 log in with the user credentials you just created and start playing around.
 
 Enjoy!
+
+
+Notes
+-----
+
+Please keep a couple of things in mind when reviewing this repo:
+
+1. This contains an entire project, and you wouldn't typically distribute that
+   to the world (check out [Django Packages](https://djangopackages.org/) to
+   see how apps are often distributed).
+2. `foo/settings.py` contains sensitive information. Namely, the `SECRET_KEY`
+   is something you *never ever want someone else to see*!
+3. There are no tests. This is NOT OK for something that real people would use.
+4. This whole project is for illustrative purposes only, and I tried to make
+   the simplest possible (but still valuable) app that I could.
+5. Please feel free to fork this repo, change it, use it for your own. It's
+   MIT-licensed, so you can do whatever you want. Just keep your own project
+   private (see #2 above).
+
