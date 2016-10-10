@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    {% block title %}{% endblock %}
+    </title>
+    {# Let's use some snazzy fonts and define a *little* bit of style #}
+    <link href="https://fonts.googleapis.com/css?family=Catamaran|Fjalla+One" rel="stylesheet">
+    <style type="text/css">
+      body {
+        font-family: 'Catamaran', sans-serif;
+        font-size: 1.5rem;
+        background-color: #AEC6CF;
+      }
+      h1,h2,h3,h4,h5 {
+        font-family: 'Fjalla One', sans-serif;
+      }
+      div.wrapper {
+        width: 60%;
+        padding: 1rem;
+        margin: 1rem auto;
+        background-color: white;
+        border: 4px solid black;
+        border-radius: 40px;
+        min-height: 500px;
+      }
+    </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>
