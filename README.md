@@ -3,7 +3,9 @@ Django: A whirlwind tour
 
 
 This repo contains sample code for an introductory talk on Django. This
-talk was last given at DevSpace, Oct 2016.
+talk was last given at DevSpace, Oct 2016. You can get the slides from speakerdeck:
+
+https://speakerdeck.com/bkmontgomery/django-a-whirlwind-tour-2016
 
 
 Usage
